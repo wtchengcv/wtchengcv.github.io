@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2025-10-01
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+One paper titled *"Beyond Flat Text: Dual Self-inherited Guidance for Visual Text Generation"* was accepted to **ICCV Workshops (HiGen) 2025**.

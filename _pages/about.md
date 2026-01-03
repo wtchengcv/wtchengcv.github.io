@@ -2,33 +2,40 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+# subtitle: Associate Professor at Beijing Normal-Hong Kong Baptist University (BNBU)
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false # 如果您想要圆形的头像，把这里改成 true
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Associate Professor</p>
+    <p>Beijing Normal-Hong Kong Baptist University</p>
+    <p>Email: wentaocheng@bnbu.edu.cn</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true # 这会自动显示您在 .bib 文件里标记为 selected={true} 的论文
+social: false # 显示页面底部的社交图标
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true # 开启新闻显示
+  scrollable: true 
+  limit: 5 
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false # ⚠️修改：暂时关闭了博客文章显示，等您以后写了博客再开启，否则首页会空一块
+  scrollable: true 
+  limit: 3 
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an Associate Professor at **Beijing Normal-Hong Kong Baptist University (BNBU)**. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Prior to joining BNBU in Feb 2025, I worked as an Associate Professor at **Nankai University** (2022–2024) and as a Senior Algorithm Engineer at **Alibaba Group AI Lab** (2020–2022).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I received my Joint Ph.D. degree in Computer Science and Engineering from **Nanyang Technological University (NTU)**, Singapore, and **Technische Universität Darmstadt**, Germany. I obtained my B.Eng. degree from **Harbin Institute of Technology (HIT)**.
+
+My research interests lie in **3D Computer Vision**, with a particular focus on:
+* Visual Localization
+* 3D Reconstruction
+* Efficient Feed-Forward 3D Foundation Models
+
+I actively serve as a reviewer for top-tier conferences and journals, including CVPR, ICCV, ECCV, ICRA, TIP, and TRO. Additionally, I serve as an **Executive Committee Member** of the Technical Committee on **CAD and Computer Graphics (CAD/CG)**, China Computer Federation (**CCF**).
