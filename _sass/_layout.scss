@@ -33,11 +33,30 @@ body.sticky-bottom-footer {
 
 // Profile
 .profile {
+  // === PC 端设置 (电脑屏幕) ===
+  margin-left: 1rem; // 图片和左侧文字的间距
+  width: 30%;        // 容器宽度占父容器的 30%
+  max-width: 250px;  // 【关键】限制最大宽度，防止大屏上头像太大
+  float: right;      // 让头像靠右显示
+
   img {
-    width: 100%;
+    width: 100%;     // 图片撑满上面的容器
+    max-width: 100%;
+    border-radius: 4px; // (可选) 给头像加一点点圆角，如果不想要删掉这行
+  }
+
+  // === 移动端设置 (手机/平板) ===
+  // 当屏幕宽度小于 768px 时执行下面的样式
+  @media (max-width: 768px) {
+    float: none;           // 取消靠右浮动
+    display: block;        // 变为块级元素
+    width: 50%;            // 【关键】手机上显示的比例，50% 比较适中
+    max-width: 180px;      // 【关键】手机上限制最大像素
+    margin-left: auto;     // 自动左边距 (居中用)
+    margin-right: auto;    // 自动右边距 (居中用)
+    margin-bottom: 20px;   // 图片下面留点空隙
   }
 }
-
 // TODO: redefine content layout.
 
 /******************************************************************************
