@@ -1,8 +1,11 @@
 ---
 layout: post
-date: 2025-12-28
+date: 2026-03-18
 inline: true
 related_posts: false
 ---
 
-New work titled *"S-VGGT: Structure-Aware Subscene Decomposition for Scalable 3D Foundation Models"* is now available.
+Two papers on 3D Foundation Models and Local Feature Learning have been accepted by **ICME 2026**! 🎉🎉
+* **S-VGGT**: Structure-Aware Subscene Decomposition for Scalable 3D Foundation Models.
+* **D2Feat**: Dual Distillation for Semantic and Geometric Local Feature Learning.
+Stay tuned for the full papers!
