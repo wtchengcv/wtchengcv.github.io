@@ -11,17 +11,19 @@ nav_order: 5
 
 Thank you for your interest in my research.
 
-I am broadly interested in 3D computer vision, especially the following topics:
+### For Undergraduate Students
 
-* Visual Localization
-* 3D Reconstruction
-* Efficient Feed-Forward 3D Foundation Models
+I usually recruit only a very small number of undergraduate students each year. Because of this, I invest substantial time in mentoring them, including research planning, paper writing, experimental analysis, and coding, with the goal of producing publications at the CCF-A or CCF-B level.
 
-If your background and interests are relevant to these directions, feel free to contact me by email and briefly include the following information:
+In general, you should satisfy at least one of the following:
 
-* Your current university and program
-* Your CV
-* Your research interests
-* Your representative projects, papers, or open-source work
+* You have received awards in ACM programming contests or the Lanqiao Cup.
+* You are already familiar with deep learning frameworks and have prior research experience, with verifiable evidence such as GitHub commit history, technical reports, or similar materials.
+
+### For Prospective PhD Students
+
+I do not have MPhil positions. If you are interested in pursuing a PhD with me, you are expected to already have strong publications and solid English communication skills.
+
+If you are interested, please email me your CV.
 
 Email: wentaocheng@bnbu.edu.cn
