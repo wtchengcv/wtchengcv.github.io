@@ -39,3 +39,5 @@ My research interests lie in **3D Computer Vision**, with a particular focus on:
 * Efficient Feed-Forward 3D Foundation Models
 
 I actively serve as a reviewer for top-tier conferences and journals, including CVPR, ICCV, ECCV, ICRA, TIP, and TRO. Additionally, I serve as an **Executive Committee Member** of the Technical Committee on **CAD and Computer Graphics (CAD/CG)**, China Computer Federation (**CCF**).
+
+Students who are interested in my research topics, please refer to [this](/info/) and contact me.

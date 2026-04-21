@@ -4,7 +4,7 @@ title: misc
 permalink: /misc/
 description: Life outside of research.
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 ### Gaming Glory
