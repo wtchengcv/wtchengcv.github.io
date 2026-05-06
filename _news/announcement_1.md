@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-02-27
+date: 2026-05-01
 inline: true
 related_posts: false
 ---
 
-One paper titled *"ExtDM: Distribution Extrapolation Diffusion Model for Video Prediction"* was accepted to **CVPR 2024**.
+One paper titled *"QuadBox: Accelerating 3D Gaussian Splatting with Geometry-Aware Boxes"* was accepted to **ICIP 2026**. This is the second first-author paper by our undergraduate student.
