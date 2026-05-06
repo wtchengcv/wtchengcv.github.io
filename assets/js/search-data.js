@@ -412,10 +412,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-one-paper-titled-extdm-distribution-extrapolation-diffusion-model-for-video-prediction-was-accepted-to-cvpr-2024",
-          title: 'One paper titled “ExtDM: Distribution Extrapolation Diffusion Model for Video Prediction” was accepted...',
-          description: "",
-          section: "News",},{id: "news-i-joined-beijing-normal-hong-kong-baptist-university-bnbu-as-an-associate-professor",
+            },},{id: "news-i-joined-beijing-normal-hong-kong-baptist-university-bnbu-as-an-associate-professor",
           title: 'I joined Beijing Normal-Hong Kong Baptist University (BNBU) as an Associate Professor!',
           description: "",
           section: "News",},{id: "news-one-paper-titled-beyond-flat-text-dual-self-inherited-guidance-for-visual-text-generation-was-accepted-to-iccv-workshops-higen-2025",
@@ -426,6 +423,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-two-papers-on-3d-foundation-models-and-local-feature-learning-have-been-accepted-by-icme-2026-s-vggt-structure-aware-subscene-decomposition-for-scalable-3d-foundation-models-d2feat-dual-distillation-for-semantic-and-geometric-local-feature-learning-stay-tuned-for-the-full-papers",
           title: 'Two papers on 3D Foundation Models and Local Feature Learning have been accepted...',
+          description: "",
+          section: "News",},{id: "news-one-paper-titled-quadbox-accelerating-3d-gaussian-splatting-with-geometry-aware-boxes-was-accepted-to-icip-2026-this-is-the-second-first-author-paper-by-our-undergraduate-student",
+          title: 'One paper titled “QuadBox: Accelerating 3D Gaussian Splatting with Geometry-Aware Boxes” was accepted...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
