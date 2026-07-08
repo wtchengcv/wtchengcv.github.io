@@ -237,6 +237,19 @@
       {% endif %}
       {% if entry.code %}
         <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+        {% if entry.code contains 'github.com/' %}
+          {% assign github_repo = entry.code | split: 'github.com/' | last | split: '?' | first | split: '#' | first | remove: '.git' %}
+          {% assign github_repo_parts = github_repo | split: '/' %}
+          {% if github_repo_parts.size >= 2 %}
+            {% assign github_repo_slug = github_repo_parts[0] | append: '/' | append: github_repo_parts[1] %}
+            <a href="{{ entry.code }}" class="github-stars" aria-label="GitHub stars for {{ github_repo_slug }}" role="button">
+              <img
+                src="https://img.shields.io/github/stars/{{ github_repo_slug }}?style=social"
+                alt="GitHub stars for {{ github_repo_slug }}"
+              >
+            </a>
+          {% endif %}
+        {% endif %}
       {% endif %}
       {% if entry.poster %}
         {% if entry.poster contains '://' %}
