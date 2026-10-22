@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: me.png
   image_circular: false # 如果您想要圆形的头像，把这里改成 true
   more_info: >
     <p>Associate Professor</p>
